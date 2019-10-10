@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  border:0;
+/* Avoids increasing width and height, when adding padding or borders */
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#desktop{
+  /* position: relative; */
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(193,193,193);
+  position: relative;
+}
+
+/* Id's for holding the positions of each desktop icon. Nested Is are for the icons within the folders */
+#ex1Folder{
+  top: 10%;
+  left: 25%;;
+}
+#ex2Folder{
+  top: 30%;
+  left: 10%;
+}
+  #websiteReviews{
+    top: 10%;
+    left: 10%;
+  }
+#ex1Folder{
+  top: 10%;
+  left: 25%;;
+}
+#ex3Folder{
+  top: 70%;
+  left: 40%;
+}
+
+#aboutAsa{
+  top: 10%;
+  left: 10%;
+}
+
+#trashCan{
+  top: 80%;
+  left: 90%;
+}
+
+
+#folder{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255,255,255);
+  position: relative;
+  border: solid 5px rgb(193,193,193);
+}
+
+#folder nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(13,30,172);
+  height: 30px;
+}
+
+#folder article{
+  font-size: 24px;
+  padding:20px;
+  width: 33%;
+  margin: 20px;
+}
+
+#notepad{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+#notepad nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(13,30,172);
+  height: 30px;
+}
+
+#notepad article{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+  padding:20px;
+  width: 33%;
+  margin: 20px;
+}
+
+
+.icon{
+  width: 7%;
+  min-width: 150px;
+  height: auto;
+  padding: 20px;
+  position: fixed;
+}
+
+.closeIcon{
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 20px;
+  height: 20px
+}
+.navIcons{
+  width: 20px;
+  height: 20px;
+}
+
+.navTitles{
+  position: absolute;
+  left: 50%;
+  color: rgb(255,255,255);
+  justify-content: center;
+}

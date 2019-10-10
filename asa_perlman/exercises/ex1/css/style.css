@@ -1,0 +1,110 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: gotham, helvetica, verdana, sans-serif;
+  background-color: black;
+}
+
+header{
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+
+header a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+header a:link{
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  color: white;
+  width: auto;
+}
+nav a:link {
+  padding:20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+
+article h1 {
+  font-size: 40px;
+  text-transform: capitalize
+}
+article h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+article {
+  padding:20px;
+  color: white;
+}
+article p {
+  text-align: left;
+}
+article img {
+  /* responsive img */
+  width:75%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+<<<<<<< HEAD
+/* img:hover{
+  width:100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  float: right;S
+} */
+=======
+
+#home article img {
+  /* margin-bottom: 20px;
+  margin-top: 20px; */
+  width:5%;
+  display: block;
+  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home article img:hover{
+  width:75%;
+}
+>>>>>>> 66a6c014df96719109c1ed871d8d9586cc0da03f
+article p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  left:0;
+  bottom: 0;
+  width: auto;
+}
