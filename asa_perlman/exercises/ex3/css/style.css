@@ -1,0 +1,119 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#bgblue {
+  background-color:cadetblue;
+}
+
+body {
+  font-family: gotham, helvetica, verdana, sans-serif;
+  background-color: black;
+}
+
+header{
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+
+header a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+header a:link{
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  color: white;
+  width: auto;
+}
+nav a:link {
+  padding:20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+
+article h1 {
+  font-size: 40px;
+  text-transform: capitalize
+}
+article h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+article {
+  padding:20px;
+  color: white;
+}
+article p {
+  text-align: left;
+}
+/* Classes begin with a . */
+.red {
+  color: red;
+  font-family: georgia, serif;
+  font-style: italic;
+  background-color: #aaa;
+  padding: 10px;
+  margin: 20px 100px;
+
+  border-left:solid 40px red;
+}
+article img {
+  /* responsive img */
+  width:75%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.small-img {
+  width: 150px;
+  float:left;
+  margin:20px;
+}
+#home article img {
+  /* margin-bottom: 20px;
+  margin-top: 20px; */
+  width:10%;
+  display: block;
+  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home article img:hover{
+  width:75%;
+}
+article p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  left:0;
+  bottom: 0;
+  width: auto;
+}

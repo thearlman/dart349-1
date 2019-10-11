@@ -24,6 +24,10 @@ body{
   top: 10%;
   left: 25%;;
 }
+  #helloWorld{
+    top: 10%;
+    left: 10%;
+  }
 #ex2Folder{
   top: 30%;
   left: 10%;
@@ -32,14 +36,14 @@ body{
     top: 10%;
     left: 10%;
   }
-#ex1Folder{
-  top: 10%;
-  left: 25%;;
-}
 #ex3Folder{
   top: 70%;
   left: 40%;
 }
+  #positioning{
+    top: 10%;
+    left: 10%;
+  }
 
 #aboutAsa{
   top: 10%;
@@ -51,7 +55,15 @@ body{
   left: 90%;
 }
 
+#bell{
+  top:80%;
+  left:60%;
+}
 
+#dos{
+  top:70%;
+  left:10%;
+}
 #folder{
   width: 100%;
   min-height: 100vh;

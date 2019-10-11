@@ -6,6 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>asaP earlman's personal page</title>
   <link rel="stylesheet" href="css/style.css">
+
+  <script type="text/javascript">
+  let ding = new Audio();
+  let tada = new Audio();
+  ding.src = "assets/sounds/DING.WAV"
+  tada.src = "assets/sounds/TADA.WAV"
+  </script>
+
 </head>
 <body>
   <section id="desktop" >
@@ -34,6 +42,15 @@
         window.open("OceanAdventure/index.html", "_blank", "replace=true, scrollbars=no, top=100, left=100, width=900, height=500");
       }
     </script>
+
+    <div id ="bell" class="icon">
+      <a href="#" onclick="ding.play()"><img src="images/SVG/bell.svg" alt="bell"></a>
+    </div>
+
+    <div id ="dos" class="icon">
+      <a href="#" onclick="tada.play()"><img src="images/SVG/dos.svg" alt="dos"></a>
+    </div>
+
 
 
   </section>
