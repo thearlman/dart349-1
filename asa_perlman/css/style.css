@@ -18,11 +18,33 @@ body{
   position: relative;
 }
 
-/* Id's for holding the positions of each desktop icon. Nested Is are for the icons within the folders */
+/* DeKSTOP */
 #exercises{
   top: 10%;
   left: 25%;;
 }
+
+#aboutAsa{
+  top: 10%;
+  left: 10%;
+}
+
+#trashCan{
+  bottom: 0%;
+  right: 0%;
+}
+
+#bell{
+  bottom:0%;
+  left:60%;
+}
+
+#dos{
+  top:70%;
+  left:10%;
+}
+
+/* EXERCISES_FOLDER */
 
 #exercise1{
   top: 30%;
@@ -52,43 +74,26 @@ body{
   }
 
 #exercise4{
-  top: 20%;
-  left: 40%;
+  top: 60%;
+  left: 20%;
 }
-#flex1{
+#flex_1{
   top: 10%;
   left: 10%;
 }
 
 #exercise5{
-  top: 20%;
+  top: 50%;
   left: 50%;
 }
-#flex2{
+#flex_2{
   top: 10%;
   left: 10%;
 }
 
 
-#aboutAsa{
-  top: 10%;
-  left: 10%;
-}
 
-#trashCan{
-  bottom: 0%;
-  right: 0%;
-}
 
-#bell{
-  bottom:0%;
-  left:60%;
-}
-
-#dos{
-  top:70%;
-  left:10%;
-}
 #folder{
   width: 100%;
   min-height: 100vh;
