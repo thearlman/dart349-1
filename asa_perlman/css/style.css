@@ -12,7 +12,6 @@ body{
 }
 #desktop{
   /* position: relative; */
-  display: flex;
   width: 100%;
   min-height: 100vh;
   background-color: rgb(193,193,193);
@@ -20,30 +19,56 @@ body{
 }
 
 /* Id's for holding the positions of each desktop icon. Nested Is are for the icons within the folders */
-#ex1Folder{
+#exercises{
   top: 10%;
   left: 25%;;
 }
-  #helloWorld{
-    top: 10%;
-    left: 10%;
-  }
-#ex2Folder{
+
+#exercise1{
   top: 30%;
   left: 10%;
 }
-  #websiteReviews{
-    top: 10%;
-    left: 10%;
-  }
-#ex3Folder{
+#helloWorld{
+  top: 10%;
+  left: 10%;
+}
+
+#exercise2{
   top: 70%;
   left: 40%;
 }
-  #positioning{
+#websiteReviews{
+  top: 10%;
+  left: 10%;
+}
+
+#exercise3{
+  top: 20%;
+  left: 60%;
+}
+#positioning{
     top: 10%;
     left: 10%;
   }
+
+#exercise4{
+  top: 20%;
+  left: 40%;
+}
+#flex1{
+  top: 10%;
+  left: 10%;
+}
+
+#exercise5{
+  top: 20%;
+  left: 50%;
+}
+#flex2{
+  top: 10%;
+  left: 10%;
+}
+
 
 #aboutAsa{
   top: 10%;
@@ -51,12 +76,12 @@ body{
 }
 
 #trashCan{
-  top: 80%;
-  left: 90%;
+  bottom: 0%;
+  right: 0%;
 }
 
 #bell{
-  top:80%;
+  bottom:0%;
   left:60%;
 }
 
@@ -80,12 +105,6 @@ body{
   height: 30px;
 }
 
-#folder article{
-  font-size: 24px;
-  padding:20px;
-  width: 33%;
-  margin: 20px;
-}
 
 #notepad{
   width: 100%;
@@ -102,13 +121,21 @@ body{
 }
 
 #notepad article{
-  display: flex;
-  justify-content: flex-end;
+  display:flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+#notepad h1{
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+ #notepad article p{
+  width: 60%;
   font-size: 24px;
   padding:20px;
-  width: 33%;
-  margin: 20px;
 }
 
 
@@ -117,7 +144,7 @@ body{
   min-width: 150px;
   height: auto;
   padding: 20px;
-  position: fixed;
+  position: absolute;
 }
 
 .closeIcon{
@@ -135,6 +162,7 @@ body{
 .navTitles{
   position: absolute;
   left: 50%;
+  transform: translateX(-50%);
   color: rgb(255,255,255);
   justify-content: center;
 }
