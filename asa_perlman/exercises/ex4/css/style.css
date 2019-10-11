@@ -1,0 +1,110 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Oswald:400,700&display=swap" rel="stylesheet">
+*{
+  padding: 0;
+  margin: 0;
+/* Avoids increasing width and height, when adding padding or borders */
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+}
+
+#logo{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width:100px;
+  height:auto;
+}
+
+h1 h2 h3{
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+}
+
+#ketchup {
+  width: 100%;
+  min-height: 100vh;
+  /* if needs to be bigger will get biger */
+  height: auto;
+  border: solid 20px #fff;
+  background: url(../images/ketchup.jpg) no-repeat fixed center center;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ketchup hgroup {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+#ketchup h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+}
+#ketchup h2{
+  font-family: 'Merriweather';
+  font-size: 32px;
+}
+
+.multi_col{
+  padding: 40px;
+  /* this is th edefault value */
+  height: auto;
+}
+
+.multi_col article{
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid red;
+}
+
+#hotdogs{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  border: solid 20px #fff;
+  background: url(../images/hotdog.jpg) no-repeat fixed center center;
+  background-size: cover;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#hotdogs article{
+  background: #fff;
+  padding:20px;
+  width: 33%;
+  margin: 20px;
+  column-count: 2;
+}
+#hotdogs h1{
+  font-size: 32px;
+  margin:10px;
+}
+#ewaste{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  border: solid 20px #fff;
+  background: url(../images/ewaste1.jpg) no-repeat fixed center center;
+  background-size: cover;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#ewaste article{
+  background: #fff;
+  padding:20px;
+  width: 30%;
+  margin: 20px;
+  column-count: 2;
+  height:300px;
+
+}

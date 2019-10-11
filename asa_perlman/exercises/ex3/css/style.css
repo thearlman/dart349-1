@@ -1,110 +1,64 @@
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Oswald:400,700&display=swap" rel="stylesheet">
-*{
-  padding: 0;
-  margin: 0;
-/* Avoids increasing width and height, when adding padding or borders */
-  box-sizing: border-box;
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
-body{
-  font-family: 'Merriweather', serif;
+section{
+    position:relative;
 }
 
-#logo{
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  width:100px;
-  height:auto;
+#s1 {
+    width:100%;
+    height: 100vh;
+    background: url(../images/face.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
-h1 h2 h3{
-  font-family: 'Oswald', sans-serif;
-  text-transform: capitalize;
+article{
+      font-size: 20px;
 }
 
-#ketchup {
-  width: 100%;
-  min-height: 100vh;
-  /* if needs to be bigger will get biger */
-  height: auto;
-  border: solid 20px #fff;
-  background: url(../images/ketchup.jpg) no-repeat fixed center center;
-  background-size: cover;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+#s1 article {
+    color: crimson;
+    width:30%;
+    background:none;
+    padding: 20px;
+    position:absolute;
+    bottom:40px;
+    left:40px;
 }
 
-#ketchup hgroup {
-  background: #fff;
-  padding: 20px;
-  text-align: center;
-  border-radius: 20px;
-}
-#ketchup h1{
-  font-family: 'Oswald', sans-serif;
-  font-size: 72px;
-  font-weight: 700;
-}
-#ketchup h2{
-  font-family: 'Merriweather';
-  font-size: 32px;
+#s2 {
+  width:100%;
+  height: 50vh;
+    background: url(../images/mouth.png) no-repeat fixed center center;
+    background-size: cover;
 }
 
-.multi_col{
-  padding: 40px;
-  /* this is th edefault value */
-  height: auto;
+#s2 article {
+    color: cadetblue;
+    width:30%;
+    background:none;
+    padding: 20px;
+    position:absolute;
+    top:40px;
+    right:40px;
 }
 
-.multi_col article{
-  column-count: 3;
-  column-gap: 40px;
-  column-rule: 1px solid red;
+#s3 {
+  width:100%;
+  height: 100vh;
+    background: url(../images/chin.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
-#hotdogs{
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  border: solid 20px #fff;
-  background: url(../images/hotdog.jpg) no-repeat fixed center center;
-  background-size: cover;
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-#hotdogs article{
-  background: #fff;
-  padding:20px;
-  width: 33%;
-  margin: 20px;
-  column-count: 2;
-}
-#hotdogs h1{
-  font-size: 32px;
-  margin:10px;
-}
-#ewaste{
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  border: solid 20px #fff;
-  background: url(../images/ewaste1.jpg) no-repeat fixed center center;
-  background-size: cover;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#ewaste article{
-  background: #fff;
-  padding:20px;
-  width: 30%;
-  margin: 20px;
-  column-count: 2;
-  height:300px;
-
+#s3 article {
+    color: turquoise;
+    width:30%;
+    background:none;
+    padding: 20px;
+    position:absolute;
+    bottom:40px;
+    right:40px;
 }
