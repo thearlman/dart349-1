@@ -34,6 +34,11 @@ body{
   right: 0%;
 }
 
+#sword{
+  bottom: 25%;
+  right: 25%;
+}
+
 #bell{
   bottom:0%;
   left:60%;

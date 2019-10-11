@@ -1,0 +1,162 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  justify-content: space-around;
+  border-bottom: solid 5px rgb(0,0,255);
+  box-shadow: 0 10px 6px rgba(255, 0, 0, 0.35);
+}
+/* box shadow = X Y BLUR COLOR*/
+nav a:link{
+  padding: 20px;
+  background: #fff;
+  color:#333;
+  text-decoration: none;
+  /* flex-grow: 1;
+  text-align: center; */
+}
+
+nav a:visited{
+  color: cadetblue;
+}
+
+nav a:hover{
+  background: #333;
+  color:#fff;
+}
+
+#egypt{
+  width: 100%;
+  height: 70vh;
+  background: url(../images/bg1.jpg) no-repeat center
+  center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+#egypt hgroup{
+  background: #fff;
+  padding: 20px;
+}
+
+.multi{
+  width: 100%
+}
+
+.multi article{
+  column-count: 3;
+  column-gap: 40px;
+  padding: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+figure {
+  margin-bottom: 20px;
+}
+
+figcaption{
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+#london{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: url(../images/bg4.jpg) no-repeat center
+  center;
+  background-size: cover;
+}
+
+#london article{
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+
+}
+
+#london p{
+  margin: 0;
+}
+
+.indent{
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+#smartphone{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: url(../images/bg1.jpg) no-repeat center
+  center;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+/* main diff between flex and not is flex turn everything into inline element */
+
+#smartphone article {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 40%;
+}
+
+
+/* SEONDARY PAGE CSSSSSSS */
+
+.sm_hero{
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+.sm_hero h1{
+  color: rgba(0,0,0,.5);
+  font-size: 52px;
+}
+.sm_hero h2{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+
+/* ESSAY */
+#essay{
+  background: url(../images/bg1.jpg);
+}
+
+/* Wireframes */
+#wire{
+  background: url(../images/bg2.png);
+}
