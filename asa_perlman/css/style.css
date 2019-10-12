@@ -21,7 +21,12 @@ body{
 /* DeKSTOPPP */
 #exercises{
   top: 10%;
-  left: 25%;;
+  left: 25%;
+}
+
+#finalProj{
+  top: 35%;
+  left: 35%;
 }
 
 #aboutAsa{
