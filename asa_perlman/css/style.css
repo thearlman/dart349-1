@@ -60,6 +60,7 @@ body{
   top: 30%;
   left: 10%;
 }
+
 #helloWorld{
   top: 10%;
   left: 10%;
@@ -69,6 +70,7 @@ body{
   top: 70%;
   left: 40%;
 }
+
 #websiteReviews{
   top: 10%;
   left: 10%;
@@ -78,6 +80,7 @@ body{
   top: 20%;
   left: 60%;
 }
+
 #positioning{
     top: 10%;
     left: 10%;
@@ -87,6 +90,7 @@ body{
   top: 60%;
   left: 20%;
 }
+
 #flex_1{
   top: 10%;
   left: 10%;
@@ -96,12 +100,45 @@ body{
   top: 50%;
   left: 50%;
 }
+
 #flex_2{
   top: 10%;
   left: 10%;
 }
 
+#exercise6{
+  top: 20%;
+  left: 33%;
+}
 
+#video_tutorial{
+  top: 15%;
+  left: 40%;
+}
+#motorCycleVid {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: -1;
+}
+#vidWindow{
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+  border: solid 5px rgb(193,193,193);
+}
+
+#vidWindow nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(13,30,172);
+  height: 30px;
+}
 
 
 #folder{
